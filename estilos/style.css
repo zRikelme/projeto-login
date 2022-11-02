@@ -61,5 +61,9 @@
 
  div#formulario p {
    font-size: 0.8em;
+ }
+
+ input:focus {
    
+   outline: 0;
  }
