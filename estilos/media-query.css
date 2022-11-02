@@ -12,12 +12,12 @@
     div#imagem {
         width: 30%;
         height: 100%;
-        float: left;
+        float: right;
     }
 
     div#formulario {
         width: 70%;
-        float: right;
+        float: left;
     }
 }
 
@@ -39,5 +39,13 @@
     div#formulario {
         float: right;
         width: 70%;
+    }
+
+    div#formulario h1{
+        font-size: 2em;
+    }
+
+    div#formulario p {
+        font-size: 1.2em;
     }
 }
