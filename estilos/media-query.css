@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 990px) {
     body {
         background: linear-gradient(to top, #49a09d, #5f2c82);
     }
@@ -18,6 +18,12 @@
     div#formulario {
         width: 70%;
         float: left;
+    }
+
+    div.campo input {
+        text-indent: 10px;
+        display: flex;
+        width: 428px;
     }
 }
 
@@ -48,4 +54,27 @@
     div#formulario p {
         font-size: 1.2em;
     }
+
+    div.campo input {
+        text-indent: 10px;
+        display: flex;
+        width: 596px;
+    }
+
+    form input[type=submit] {
+        display: block;
+        width: 100px;
+    }
+
+    form a#botao {
+        width: 300px;
+        margin-left:20px;
+    }
+
+    form .display {
+        display: flex;
+        align-items: center;
+    }
+
+   
 }
